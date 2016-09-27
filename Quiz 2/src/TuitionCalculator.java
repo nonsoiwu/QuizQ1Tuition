@@ -11,6 +11,7 @@ public class TuitionCalculator {
 		System.out.println("Enter the percentage increase:");
 		Scanner percentage = new Scanner(System.in);
 		float Percentage = percentage.nextFloat();
+		Percentage = Percentage/100;
 		
 		float Debt = Tuition;
 		
